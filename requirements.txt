@@ -1,0 +1,15 @@
+# Core dependencies
+pywhatkit
+pillow
+qrcode
+requests
+
+# For logging
+python-logging-loki
+
+# For browser automation (Selenium approach)
+selenium
+webdriver-manager
+
+# For threading and async functionality
+asyncio
