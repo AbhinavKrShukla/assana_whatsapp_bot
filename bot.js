@@ -15,7 +15,7 @@ client.on('ready', () => {
 
 client.on('message', async msg => {
     const userMessage = msg.body;
-    const userId = 10;
+    const userId = 222;
   
     try {
       const response = await axios.get('http://103.231.86.182:5000/query/', {
