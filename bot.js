@@ -29,7 +29,8 @@ client.on('message', async msg => {
       await msg.reply(answer);
     } catch (err) {
       console.error("API Error:", err.message);
-      await msg.reply("⚠️ Could not get a response from the server.");
+      await msg.reply("⚠️ I'm sorry, there was a temporary issue reaching our system. Please try again in a few moments. If the problem persists, feel free to call us at +91 4435057120 or +91 9384017122 for assistance.");
+
     }
   });
   
